@@ -1,0 +1,192 @@
+html{
+	/* Set height of the html page to 100% of the browser height */
+	height: 100%;
+	/* Hide horizontal scroll */
+	overflow-x: hidden;
+	font-family: 'Helvetica', sans-serif;
+}
+
+body{
+	/* Set height of the body to 100% -- separated out of html to allow scrollTo animation */
+	height: 100%;
+	margin: 0px;
+}
+
+/* 
+Navigation Bar 
+*/
+#nav{
+	/* Fix navigation bar at the top middle of the web page */
+    position: fixed;
+    /* calc() CSS function calculates numbers of different units */
+    left: calc(50% - 50px);
+    top: 20px;
+    /* Display nav bar on top of everything else */
+    z-index: 1;
+}
+
+.nav-btn{
+	width: 20px;
+    height: 20px;
+    /* Make square div into a circle */
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+    cursor: pointer;
+    /* transition changes in background-color */
+    transition: background-color 0.5s;
+}
+
+/* When a nav-btn is hovered on, set background-color to black */
+.nav-btn:hover{
+	background-color: purple;
+}
+
+/* 
+Cat Div
+*/
+
+/* 
+Parallax: Home, Pop, RNB, Rock, House, Hip Hop, Trap;
+*/
+#home-page, #pop, #rnb, #rock, #house, #hip-hop, #trap{
+	/* Set height of div to 100% */
+	height: 100%;
+	/* The bottom three background CSS settings create parallax effect */
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+#home-page{
+	/* Set background image of home section using url() function */
+	background-image: url('img/space.jpg');
+}
+#pop{
+	/* Set background image of pop section using url() function */
+	background-image: url('img/nova.jpg');
+}
+
+#rnb{
+	/* Set background image of rnb section using url() function */
+	background-image: url('img/galactic.jpg');
+}
+
+#rock{
+	/* Set background image of rock section using url() function */
+	background-image: url('img/space.jpg');
+}
+
+#house{
+	/* Set background image of house section using url() function */
+	background-image: url('img/beautiful-shining-stars-night-sky.jpg');
+}
+
+#hip-hop{
+	/* Set background image of hip-hop section using url() function */
+	background-image: url('img/galactic.jpg');
+}
+
+#trap
+{
+	/* Set background image of trap section using url() function */	
+	background-image: url('img/1876.jpg');
+}
+
+
+
+
+/* 
+hello div inside home section
+*/
+#hello-astro-div{
+    position: relative;
+    width: 250px;
+    text-align: left;
+    top: calc(100% - 500px);
+    left: calc(85% - 95px);
+}
+
+#hello-astro{
+	width: 150px;
+	margin-top: 25px;
+}
+
+#astro-text{
+	color: white;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+/* 
+text divs
+*/
+
+#pop-text, #rnb-text, #rock-text,#house-text, #hip-hop-text,#trap-text{
+	color:black;
+	font-size: 20px
+	
+}
+
+#pop-song,#rnb-song,#rock-song,#house-song,#hip-hop-song,#trap-song
+{
+	position: relative;
+    top: calc(100% - 500px);
+    left: calc(45% - 95px);
+	background: transparent
+	
+}
+
+
+/* 
+F
+
+/* 
+Text sections 
+*/
+.text-section{
+	/* Center text in the middle of browser using flexbox */
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.text{
+	width: 80%;
+	line-height: 2em;
+}
+
+.audioController
+{
+	padding-top: 5px;
+	padding-bottom: 15px;
+	padding-left: 130px;
+}
+.border-rec
+{
+	width: 500px;
+	height: 150x;
+	border:5px solid white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.header
+{
+	color: white;
+	font-size: 70px;
+	font-weight: bolder;
+	position: relative;
+    top: calc(70% - 500px);
+    left: calc(51% - 95px);
+	background: transparent
+}
+
+.song-text
+{
+	padding-left: 125px;
+	color: white;
+	font-size: 22px;
+	font-weight: bolder;
+}
