@@ -2,7 +2,7 @@
 var s = 0;
 function start_vid(){
   if(s == 0){
-    $('#videoPage').append('<video autoplay controls ontimeupdate = "vid_con(this)" plays-inline class="main-video"><source src="./assests/video/Final Video without the questions and with a bonus clip.mp4" type="video/mp4" /></video>');
+    $('#videoPage').append('<video autoplay controls ontimeupdate = "vid_con(this)" plays-inline class="main-video"><source src="https://media.githubusercontent.com/media/Yonathan-Wagaye/Yonathan-Wagaye.github.io/main/drums/assests/video/Final Video without the questions and with a bonus clip.mp4" type="video/mp4" /></video>');
     s == 1;
   }
 }
@@ -39,13 +39,13 @@ function checkAnswer(event) {
   });
   const selectedButton = event;
   if(selectedButton === btnA){
-    $('#answer-page').append('<video autoplay controls plays-inline ontimeupdate = "end_vid(this)" class="answer-video"><source src="./assests/video/Interactive Answer 1.mp4" type="video/mp4" /></video>')
+    $('#answer-page').append('<video autoplay controls plays-inline ontimeupdate = "end_vid(this)" class="answer-video"><source src="https://media.githubusercontent.com/media/Yonathan-Wagaye/Yonathan-Wagaye.github.io/main/drums/assests/video/Interactive Answer 1.mp4" type="video/mp4" /></video>')
   }else if(selectedButton === btnB){
     $('.answer-video').remove();
-    $('#answer-page').append('<video autoplay controls plays-inline ontimeupdate = "end_vid(this)" class="answer-video"><source src="./assests/video/Interactive Answer 2.mp4" type="video/mp4" /></video>')
+    $('#answer-page').append('<video autoplay controls plays-inline ontimeupdate = "end_vid(this)" class="answer-video"><source src="https://media.githubusercontent.com/media/Yonathan-Wagaye/Yonathan-Wagaye.github.io/main/drums/assests/video/Interactive Answer 2.mp4" type="video/mp4" /></video>')
   }else if(selectedButton === btnC){
     $('.answer-video').remove();
-    $('#answer-page').append('<video autoplay controls plays-inline ontimeupdate = "end_vid(this)" class="answer-video"><source src="./assests/video/Interactive Answer 3.mp4" type="video/mp4" /></video>')
+    $('#answer-page').append('<video autoplay controls plays-inline ontimeupdate = "end_vid(this)" class="answer-video"><source src="https://media.githubusercontent.com/media/Yonathan-Wagaye/Yonathan-Wagaye.github.io/main/drums/assests/video/Interactive Answer 3.mp4" type="video/mp4" /></video>')
   }
 }
 
