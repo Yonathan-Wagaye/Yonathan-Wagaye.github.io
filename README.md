@@ -2,7 +2,8 @@
 
 ## Perspectives: A Student Guide to Drumming
 
-Project Description: We chose the third option on the assignment description to create the theme of our project. The project aims to show users how to play a simple drum grove using three basic steps. The project includes a video of a drummer describing his journey to playing drums. The video is hosted on a webpage where users can ask questions and have an interactive experience. 
+## Project Description: 
+We chose the third option on the assignment description to create the theme of our project. The project aims to show users how to play a simple drum grove using three basic steps. The project includes a video of a drummer describing his journey to playing drums. The video is hosted on a webpage where users can ask questions and have an interactive experience. 
 yaakulya123.github.io/Video_Assignment/
 
 ## Process: 
