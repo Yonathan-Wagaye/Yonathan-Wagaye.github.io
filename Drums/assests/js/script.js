@@ -2,7 +2,7 @@
 var s = 0;
 function start_vid(){
   if(s == 0){
-    $('#videoPage').append('<video autoplay controls ontimeupdate = "vid_con(this)" plays-inline class="main-video"><source src="./assests/video/Final Video without the questions and with a bonus clip.mp4" type="video/mp4" /></video>');
+    $('#videoPage').append('<video autoplay controls ontimeupdate = "vid_con(this)" plays-inline class="main-video"><source src="./assests/video/finalvideo.mp4" type="video/mp4" /></video>');
     s == 1;
   }
 }
